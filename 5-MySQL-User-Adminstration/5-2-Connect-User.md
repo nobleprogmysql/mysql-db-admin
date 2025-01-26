@@ -10,7 +10,7 @@ status;
 
 ### Mysql shell
 ```sql
-snap install mysql-sehll
+snap install mysql-shell
 
 mysqlsh --help
 mysqlsh --sql --uri=john@localhost:3306/mysql

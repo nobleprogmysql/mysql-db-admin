@@ -4,6 +4,7 @@ vi staff.txt
 
 
 -- Run mysqlimport program
+show variables like 'secure_file_priv'
 mysqlimport --columns=fname,lname,title,isActive employees --delete /var/lib/mysql-files/staff.txt 
 
 --mysqlcheck

@@ -1,5 +1,5 @@
 
 mysqladmin status
 mysqladmin ping
-mysqladmin create database employees
-mysqladmin drop database employees
+mysqladmin create employees
+mysqladmin drop employees

@@ -10,8 +10,10 @@ pres q to quit
 
 ### ADD OPTION IN MY.CNF FILE
 ```sh
+show variables like 'server_id';
+
 sudo cat /etc/mysql/my.cnf 
-sudo vi /etc/mysql/mysql.con.d/mysqld.cnf
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 server-id = 10
 sudo systemctl stop mysql.service
 sudo systemctl start mysql.service

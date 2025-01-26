@@ -32,7 +32,7 @@ show tables;
 SELECT * FROM continents;
 
 create index idx_cname on continents(cname);
-delete from continent where cid=4;
+delete from continents where cid=4;
 
 sudo ls /var/lib/mysql/world
 ```

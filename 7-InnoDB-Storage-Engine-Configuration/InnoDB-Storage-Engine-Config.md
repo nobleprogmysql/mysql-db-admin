@@ -12,6 +12,7 @@ show global variables like 'innodb_log_buffer_size';
 show global status like 'innodb_log_waits';
 
 innodb_flush_method
+innodb_flush_method = 'O_DIRECT'
 
 show variables like 'innodb_doublewrite';
 

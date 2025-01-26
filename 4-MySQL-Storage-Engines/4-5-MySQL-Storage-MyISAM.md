@@ -32,7 +32,7 @@ show tables;
 SELECT * FROM continents;
 
 START TRANSACTION;
-UPDATE CONTINENTS SET cname='ant' WHERE cid=7;
+UPDATE continents SET cname='ant' WHERE cid=7;
 ROLLBACK;
 
 show warnings;

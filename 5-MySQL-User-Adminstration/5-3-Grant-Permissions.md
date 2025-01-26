@@ -8,6 +8,6 @@ ALTER USER Dave IDENTIFIED BY 'Mysql@1234';
 
 ### Grant
 ```sql
-GRANT ALL SELECT, INSERT,UPDATE,DELETE ON world.continents TO Dave WITH GRANT OPTION;
+GRANT SELECT, INSERT,UPDATE,DELETE ON world.continents TO Dave WITH GRANT OPTION;
 show databses;
 ```

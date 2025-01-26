@@ -1,3 +1,4 @@
+mysql
 
 show binary logs;
 
