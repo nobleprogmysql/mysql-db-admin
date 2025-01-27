@@ -41,7 +41,7 @@ sudo lsof -u mysql
 ### SECURE INSTALLATION
 ```sh
 sudo mysql
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Mysql@123';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Mysql@123';
 exit
 mysql -u root -p
 ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;
